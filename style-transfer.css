@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 60px; 
+}
+
+body {
+    line-height: 1.5;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: #650101;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.transfer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.transfer-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50PX;
+}
+
+.image-container {
+    width: 140px; 
+    height: 180px; 
+    margin-bottom: 10px;
+    border-radius: 5px; 
+    border: 2px solid #908a8a;
+    max-width: 300px;
+    }
+
+.image-container img {
+    width: 140px;
+    height: 180;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.details {
+    padding: 15px;
+}
+
+.details h2 {
+    margin: 0 0 10px 0;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+#players {
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#players h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.team ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.team ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 170px; 
+    
+}
+
+.player-photo {
+    width: 140px; /* Sesuain foto pemain */
+    height: 180px; /* Buat tarik ke bawah */
+    margin-bottom: 10px;
+    border-radius: 5px; 
+    border: 2px solid #908a8a;
+    max-width: 300px;
+    background-color: #ed797971;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
